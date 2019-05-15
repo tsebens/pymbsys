@@ -1,0 +1,2 @@
+# pymbsys
+A python wrapper for MB-System, the CLI utility developed by the Monterey Bay Aquarium Research Institute. MB-System is used to manipulate, edit, plot, evaluate, and aggregate bathymetric data. This library is a simple utility that I'm writing which will facilitate calling some of MB-System's more rudimentary commands from a python environment in a controlled, safe, and non-hacky way. At the moment, the only command I will be implementing will be mblist, which extracts the data from an mb file, thus making mb data more accessible to python scripts.
